@@ -81,10 +81,10 @@ $(function() {
   // thank you to: http://bl.ocks.org/mbostock/2206340#index.html
 
   var width = 960,
-    height = 500;
+    height = 600;
 
   var projection = d3.geo.albersUsa()
-    .scale(1070)
+    .scale(1250)
     .translate([width / 2, height / 2]);
 
   var path = d3.geo.path()
