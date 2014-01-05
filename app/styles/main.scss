@@ -36,8 +36,18 @@ body {
     padding-bottom: 19px;
 }
 
+.header p {
+  color: #999;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
 /* Custom page footer */
 .footer {
+    margin-top: 100px;
     padding-top: 19px;
     color: #777;
     border-top: 1px solid #e5e5e5;
@@ -67,10 +77,14 @@ body {
     margin-top: 28px;
 }
 
+.emphasis {
+  color: teal;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 730px;
+        max-width: 960px;
     }
 
     /* Remove the padding we set earlier */
