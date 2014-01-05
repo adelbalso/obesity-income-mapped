@@ -120,7 +120,7 @@ module.exports = {
     "Washington": "WA",
     "West Virginia": "WV",
     "Wisconsin": "WI",
-    "WY": "Wyoming"
+    "Wyoming": "WY",
   }
 
 
